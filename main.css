@@ -6,9 +6,18 @@ body {
 }
 
 .inLine{
-    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    color: black
+}
+
+.frontEnd {
+    width: 19%;
+    font-size: 30px;
     display: inline-block;
 }
+
 header {
     background-color: lightcoral
 }
