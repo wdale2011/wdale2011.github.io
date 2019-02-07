@@ -2,22 +2,149 @@ body {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./Images/Cusco.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: wheat;
+    text-align: center;
 }
 
-.inLine{
-    display: inline-block;
-    width: 100%;
-    background-color: white;
-    color: black
+.techBackground {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 0%;
+    padding-bottom: 6px
+}
+
+div.transBox {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid orange;
+}
+
+div.transBox2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(0, 200, 100);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+div.transBox3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid purple;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+div.transBox4 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid ghostwhite;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.border {
+    border: 3px solid orangered;
+}
+
+.pictureMargin {
+    padding-right: 6px;
+}
+
+.rounded {
+    border: 1px solid white;
+    border-radius: 25%
+}
+
+.frontEndRow {
+    background-color: rgba(0, 0, 0, 0.3);
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 3rem;
+    margin-top:0%;
+    margin-bottom: 2rem;
 }
 
 .frontEnd {
     width: 19%;
+    height: 2rem;
     font-size: 30px;
     display: inline-block;
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
 }
 
-header {
-    background-color: lightcoral
+.serverRow {
+    background-color: rgba(0, 0, 0, 0.4);
+    color:black;
+    justify-content: space-evenly;
+    display: flex;
+    align-items:center;
+    height: 3rem;
+    margin-top: 0%;
+    margin-bottom: 2rem;
 }
+
+.serverSide {
+    height: 2rem;
+    display: flex;
+    font-size: 30px;
+    list-style-type: none;  
+    align-items: center;  
+    padding-right: 5%;
+    padding-left: 2%;
+}
+
+.databaseRow {
+    background-color: rgba(0, 0, 0, 0.4);
+    color:black;
+    justify-content: space-evenly;
+    display: flex;
+    align-items:center;
+    height: 3rem;
+    padding-right: 5%;
+    padding-left: 15%;
+    margin-top: 0%;
+    margin-bottom: 2rem;
+}
+
+nav {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav ul li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+#bioText {
+    text-align: left;
+    padding: 10%;
+    padding-top:5%;
+}
+
+#trello {
+    width: 60px;
+    height: 30px;
+}
+
+/*margin and max-width*/

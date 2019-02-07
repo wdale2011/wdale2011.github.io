@@ -8,91 +8,132 @@
         <link href="./main.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>William Manuel Dale</h1>
+        <h1 id="top" style="padding-top: 1rem;">William Manuel Dale</h1>
             <picture>
                 <source media="(min-width: 650px)"
                 srcset="./Images/profile.jpg">
                 <img src="./Images/profile.jpg" alt="profile" style="width:200px">
             </picture>
         <h2>Full Stack Developer in Los Angeles, California</h2>
+        <nav>
+            <ul>
+                <li><a href="#aboutMe">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#blog">My Blog</a></li>
+                <li><a href="#contactInfo">Contact me</a></li>
+            </ul>
+        </nav>
+        <div  id="contactInfo" class="transBox">
         <h3>Contact Information</h3>
             <p>Phone: 571-926-6304</p>
             <p>Email: wmd2011@gmail.com</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/william-manuel-dale-2016/">https://www.linkedin.com/in/william-manuel-dale-2016/</a></p>
-        <h3>Biography</h3>
-            <p>My name is William Manuel Dale, and welcome to my profile page! Here you will find information</p>
+        </div>
+        <div  id="aboutMe" class="transBox2">
+        <h3 style="font-size: 30px">Biography</h3>
+            <p id="bioText">
+                Hello there! My name is William Dale and I am a full stack developer specializing in web development living in the greater Los Angeles area. In my free time I am an avid gamer, trumpet player, novice painter, voracious reader, and lifelong learner. I was raised in Herndon, Virginia and graduated with a bachelors degree in Political Science, Spanish, and Economics from Tulane University in New Orleans Louisiana.
+                <br/>
+                <br/>
+                After graduating from university, I spent some time in the workforce in both sales and management before deciding that I needed more intellectually stimulating work. In my free time I began teaching myself to code on CodeAcademy and found programming to be both immensely challenging and rewarding. Following my passion, I moved out West here to LA to join a coding bootcamp and subsequently worked with a team of fellow developers to build my first full web application called "Grolo" for a startup entrepeneur. Some demonstrations of my contributions to that project can be found <a>here</a> in my portfolio.
+                <br/>
+                <br/>
+                Since then, I have continued to pursue personal projects as well as more opportunities to expand my technological and professional skillset. If you have any job opportunities that you feel I would be a good candidate for you can reach out to me using the <a>contact info</a> provided. I am also going to start a <a>blog</a> soon that will be linked to this site when completed, so stay tuned!
+                <br/>
+                <br/>
+                Thanks for stopping by!
+                <br/>
+                <br/>
+                -William M. Dale
+            </p>
+        </div>
+        <div id="portfolio" class="transBox3">
         <h3>Examples of my Work</h3>
             <p>Check out my Github: <a href="https://github.com/wdale2011">here!</a></p>
-        <h3>Technological Proficiencies</h3>
-            <h4>Front-end</h4>
-            <ul class="inLine">
-                <li class="frontEnd">
-                    <picture>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePlu4SRGXXE4lVXVdSghYNBZDOXyfqhhrRqbboEa6qRV9GB59ng" alt="html" style="width:30px">
-                    </picture>
-                    Html</li>
-                <li class="frontEnd">
-                    <picture>
-                        <img src="./Images/css.png" alt="css" style="width:30px">
-                    </picture>
-                    CSS</li>
-                <li class="frontEnd">
-                    <picture>
-                        <img src="./Images/javascript.png" alt="javascript" style="width:25px;">
-                    </picture>
-                    Javascript</li>
-                <li class="frontEnd">
-                    <picture>
-                        <img src="./Images/jQuery.png" alt="jQuery" style="width:30px">
-                    </picture>
-                    jQuery</li>
-                <li class="frontEnd">
-                    <picture>
-                        <img src="./Images/react.png" alt="react" style="width:32px">
-                    </picture>
-                    React</li>
+        </div>
+        <h3 style="font-size: 30px" id="technologies">Technological Proficiencies</h3>
+            <h1 class="techBackground">Front-end</h1>
+            <ul class="frontEndRow">
+                <li class="frontEnd" style="color:rgb(255, 94, 0)">
+                    <picture style="padding-right: 6px">
+                        <img class= "rounded" src="./Images/html.png" alt="html" style="height: 33px">
+                    </picture> Html</li>
+                <li class="frontEnd" style="color:blue">
+                    <picture style="padding-right: 6px">
+                        <img class= "rounded" src="./Images/css.jpg" alt="css" style="width: 30px">
+                    </picture> CSS</li>
+                <li class="frontEnd" style="color:rgb(212, 181, 0)">
+                    <picture style="padding-right: 6px">
+                        <img class="rounded" src="./Images/javascript.png" alt="javascript" style="width: 30px">
+                    </picture> Javascript</li>
+                <li class="frontEnd" style="color:rgb(53, 189, 175)">
+                    <picture style="padding-right: 6px">
+                        <img class="rounded" src="./Images/jQuery.png" alt="jQuery" style="width: 30px">
+                    </picture> jQuery</li>
+                <li class="frontEnd" style="color:rgb(105, 172, 199)">
+                    <picture style="padding-right: 6px">
+                        <img class="rounded" src="./Images/react.png" alt="react" style="width: 40px">
+                    </picture> React</li>
             </ul>
-            <h4>Server-side</h4>
-            <ul>
-                <li>
-                    <picture>
-                        <img src="./Images/CSharp.png" alt="cSharp" style="width:30px">
+            <h1 class="techBackground">Server-side</h1>
+            <ul class="serverRow">
+                <li class="serverSide" style="color:violet">
+                    <picture style="padding-right: 6px">
+                        <img class="rounded" src="./Images/CSharp.png" alt="cSharp" style="width:30px">
                     </picture>
                     C#</li>
-                <li>
-                    <picture<>
-                        <img src="./Images/DotNet.jpg" alt="dotNet" style="width:30px">
+                <li class="serverSide" style="color: skyblue">
+                    <picture style="padding-right: 6px">
+                        <img class="rounded" src="./Images/DotNet.jpg" alt="dotNet" style="width:30px">
                     </picture>
                     .Net</li>
             </ul>
-            <h4>Database</h4>
-            <ul>
-                <li>
-                    <picture>
-                        <img src="./Images/T-SQL.png" alt="t-SQL" style="width:30px">
+            <h1 class="techBackground">Database</h1>
+            <ul class="databaseRow">
+                <li class="serverSide" style="color:dodgerblue">
+                    <picture style="padding-right: 6px">
+                        <img class="rounded" src="./Images/T-SQL.png" alt="t-SQL" style="width:30px">
                     </picture>
                     T-SQL</li>
-                <li>
-                    <picture>
-                        <img src="./Images/SQLServer.png" alt="SQLServer" style="width:30px">
+                <li class="serverSide" style="color: rgb(255, 87, 87)">
+                    <picture style="padding-right: 6px">
+                        <img class="rounded" src="./Images/SQLServer.png" alt="SQLServer" style="width:30px">
                     </picture>
                     Microsoft SQL Server</li>
             </ul>
-            <h4>Source Control</h4>
-            <ul>
-                <li>
-                    <picture>
-                        <img src="Images/git.png" style="width:30px">
+            <h1 class="techBackground">Source Control</h1>
+            <ul class="serverRow">
+                <li class="serverSide" style="color:orangered">
+                    <picture style="padding-right: 6px">
+                        <img class="rounded" src="Images/git.png" style="width:30px">
                     </picture>
                     Git</li>
-                <li>
-                    <picture>
-                        <img src="Images/github.png" style="width: 30px">
+                <li class="serverSide" style="color:greenyellow">
+                    <picture style="padding-right: 6px">
+                        <img class="rounded" src="Images/github.png" style="width: 30px">
                     </picture>
                     Github</li>
             </ul>
+            <h1 class="techBackground"> Collaboration Tools</h1>
+            <ul class="serverRow">
+                <li class="serverSide" style="color:Yellow">
+                    <picture style="padding-right: 6px">
+                        <img class="rounded" src="./Images/slack.jpg" style="width: 30px">
+                    </picture>
+                    Slack
+                </li>
+                <li class="serverSide" style="color:cyan">
+                    <picture style="padding-right: 6px">
+                        <img id="trello" class="rounded" src="./Images/trello.png">
+                    </picture>
+                    Trello
+                </li>
+            </ul>
+        <div id="blog" class="transBox4">
         <h3>Recent Blog Posts</h3>
             <p>This would be a blog</p>
+        </div>
     </body>
     <footer>
 
